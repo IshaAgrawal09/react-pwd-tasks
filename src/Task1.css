@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.task1 {
+  width: 35%;
+  margin: 2% auto;
+  /* border: 1px solid black; */
+}
+#image {
+  width: 100%;
+}
+#image img {
+  width: 100%;
+  height: auto;
+}
+.header {
+  margin: 0 6%;
+  /* border: 1px solid black; */
+}
+.header a {
+  float: right;
+  margin: 0 2%;
+  color: blue;
+  text-decoration: none;
+}
+@media (max-width: 780px) {
+  .task1 {
+    width: 60%;
+  }
+}
