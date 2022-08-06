@@ -11,7 +11,7 @@ const Task2 = () => {
           </div>
           <div className="nav-item">
             <div>Home & Works</div>
-            <div>Road Map</div>
+
             <div>About</div>
             <div>Contact</div>
             <div>Advertising</div>
@@ -57,19 +57,31 @@ const Task2 = () => {
         {/* sECTION CARD  */}
         <div className="card">
           <div className="single-card">
-            <img src="card1.png" alt=""/>
+            <img src="card1.png" alt="" />
             <h3>100% Decentralized</h3>
-            <p>The purpose of this website is solely to display information regarding the products and services available on the Crypto.com App. </p>
+            <p>
+              The purpose of this website is solely to display information
+              regarding the products and services available on the Crypto.com
+              App.{" "}
+            </p>
           </div>
           <div className="single-card">
-            <img src="card2.png" alt=""/>
+            <img src="card2.png" alt="" />
             <h3>100% On-Chain</h3>
-            <p>The purpose of this website is solely to display information regarding the products and services available on the Crypto.com App. </p>
+            <p>
+              The purpose of this website is solely to display information
+              regarding the products and services available on the Crypto.com
+              App.{" "}
+            </p>
           </div>
           <div className="single-card">
-            <img src="card3.png" alt=""/>
+            <img src="card3.png" alt="" />
             <h3>100% Verified</h3>
-            <p>The purpose of this website is solely to display information regarding the products and services available on the Crypto.com App. </p>
+            <p>
+              The purpose of this website is solely to display information
+              regarding the products and services available on the Crypto.com
+              App.{" "}
+            </p>
           </div>
         </div>
       </div>
