@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  position: relative;
+  /* height: 90v  h; */
+  background-image: linear-gradient(
+    to right,
+    rgb(98, 123, 235),
+    rgb(13, 24, 85)
+  );
+}
+
+.nav {
+  padding-top: 2%;
+  /* border: 1px solid #fff; */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav .logo {
+  width: 18%;
+}
+.logo img {
+  width: 100%;
+  max-width: 200px;
+}
+.nav-item {
+  /* border: 1px solid black; */
+  padding-top: 1%;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-item button {
+  background-color: rgb(58, 141, 218);
+  padding: 8% 10%;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+/* FOCUSED-CONTENT  */
+.focus-head {
+  color: white;
+  margin-top: 6%;
+  padding-bottom: 6%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.focus-content {
+  width: 48%;
+}
+.focus-content p {
+  margin: 4% 0;
+}
+.focus-content button {
+  background-color: rgb(58, 141, 218);
+  padding: 2% 6%;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+/* SECTION  */
+.section {
+  margin: 4% 0;
+}
+.section .section-header .first {
+  color: rgb(58, 141, 218);
+  text-align: center;
+}
+.section-header .first img {
+  width: 70px;
+  height: 70px;
+}
+.section .section-header .second {
+  margin: 3% 0;
+  text-align: center;
+}
+.second h1 {
+  margin: 1% 0;
+}
+.section .card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 3% 0;
+  padding: 2%;
+}
+.card .single-card {
+  border: 1px solid #eee;
+  padding: 2%;
+  text-align: center;
+  width: 29%;
+  margin: 0 2%;
+}
+@media (max-width: 750px) {
+  .nav {
+    flex-direction: column;
+  }
+  .nav-item {
+    font-size: 14px;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .nav-item button {
+    background-color: rgb(58, 141, 218);
+    padding: 5% 6%;
+    border: none;
+    border-radius: 10px;
+    color: white;
+  }
+  .focus-image {
+    display: hidden;
+  }
+  .focus-image img{
+    display: none;
+  }
+  .focus-content {
+    text-align: center;
+    width: 98%;
+  }
+  .section .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3% 0;
+    padding: 2%;
+  }
+  .card .single-card {
+    border: 1px solid #eee;
+    padding: 2%;
+    text-align: center;
+    width: 90%;
+    margin:  2%;
+  }
+}
